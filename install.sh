@@ -4,7 +4,7 @@ mount -o remount,rw /
 webuiFile="/www/webui/webui.js"
 tempFile="/tmp/encodeStringCUxD.js"
 if [ -z "`cat ${webuiFile} | grep "encodeStringCUxD = function(elmID, paramID)"`" ]; then                                                                                                      
-  wget -nv -O ${tempFile} https://raw.githubusercontent.com/jp112sdl/CUxD_CMD_StringReplace_Mod/master/encodeStringCUxD.js 
+  wget -q -O ${tempFile} https://raw.githubusercontent.com/jp112sdl/CUxD_CMD_StringReplace_Mod/master/encodeStringCUxD.js 
   if [ "`cat ${tempFile} | grep "encodeStringCUxD = function(elmID, paramID)"`" ]; then
     cat /tmp/encodeStringCUxD.js >> ${webuiFile}                                                                                                                         
     echo "${webuiFile}: encodeStringCUxD function added."
