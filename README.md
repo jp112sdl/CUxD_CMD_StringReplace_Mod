@@ -11,7 +11,7 @@ In der CUxD Dokumentation ist eine Ersetzungstabelle aufgeführt, in der die zu 
 _Beispiel:_<br/>
 <img src="animation.gif" />
 
-### :wrench: Installation:
+### :wrench: Installation (❗bisher nur getestet mit einer RM/CCU3-Firmware!):
 - via SSH:
 
 `wget -q -O- https://raw.githubusercontent.com/jp112sdl/CUxD_CMD_StringReplace_Mod/master/install.sh | sh`
