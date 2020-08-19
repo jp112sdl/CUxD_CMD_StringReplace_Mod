@@ -14,13 +14,13 @@ _Beispiel:_<br/>
 ### :wrench: Installation (❗bisher nur getestet mit einer RM/CCU3-Firmware!):
 - via SSH:
 
-`wget -q -O- https://raw.githubusercontent.com/jp112sdl/CUxD_CMD_StringReplace_Mod/master/install.sh | sh`
+`wget -q -O- https://github.com/jp112sdl/CUxD_CMD_StringReplace_Mod/releases/download/1.0/install.sh | sh`
 
 - via WebUI (Programme -> Skript testen):
 ```
 string out;
 string err;
-system.Exec("wget -q -O- https://raw.githubusercontent.com/jp112sdl/CUxD_CMD_StringReplace_Mod/master/install.sh | sh", &out, &err);
+system.Exec("wget -q -O- https://github.com/jp112sdl/CUxD_CMD_StringReplace_Mod/releases/download/1.0/install.sh | sh", &out, &err);
 WriteLine("Output: \n"#out);
 WriteLine("Error : \n"#err);
   ```
