@@ -1,5 +1,5 @@
 # CUxD_CMD_StringReplace_Mod
-## CCU WebUI Modifikation zur automatischen Zeichenersetzung von CMD_ Parameter-Werten
+## CCU WebUI Modifikation zur automatischen Zeichenersetzung von CMD_ Parameter-Werten ![Github All Releases](https://img.shields.io/github/downloads/jp112sdl/CUxD_CMD_StringReplace_Mod/latest/total.svg)
 
 ### :information_source: Hintergrund:
 Die WebUI verhindert das Speichern von Werten, die bestimmte Sonderzeichen enthalten.
